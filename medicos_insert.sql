@@ -1,0 +1,10 @@
+INSERT INTO medico VALUES (2, 'Ana Silva', '987654321', 'Rua das Flores, 123', 35, ['Cardiologista', 'Clínico Geral'], 'ana.silva@email.com', '1234', '28/03/09:00');
+INSERT INTO medico VALUES (3, 'Carlos Mendes', '123456789', 'Av. Brasil, 456', 42, ['Ortopedista', 'Traumatologista'], 'carlos.m@email.com', '5678', '29/03/14:30');
+INSERT INTO medico VALUES (4, 'Mariana Costa', '456789123', 'Rua dos Pinheiros, 789', 38, ['Dermatologista'], 'mariana.c@email.com', '9012', '30/03/10:15');
+INSERT INTO medico VALUES (5, 'Pedro Alves', '789123456', 'Alameda Santos, 101', 45, ['Neurologista', 'Psiquiatra'], 'pedro.a@email.com', '3456', '31/03/11:45');
+INSERT INTO medico VALUES (6, 'Juliana Pereira', '321654987', 'Rua Augusta, 202', 40, ['Ginecologista', 'Obstetra'], 'juliana.p@email.com', '7890', '01/04/08:30');
+INSERT INTO medico VALUES (7, 'Ricardo Souza', '654987321', 'Av. Paulista, 303', 50, ['Oftalmologista'], 'ricardo.s@email.com', '2345', '02/04/15:00');
+INSERT INTO medico VALUES (8, 'Fernanda Lima', '987321654', 'Rua Oscar Freire, 404', 37, ['Endocrinologista'], 'fernanda.l@email.com', '6789', '03/04/13:20');
+INSERT INTO medico VALUES (9, 'Lucas Oliveira', '321789654', 'Av. Rebouças, 505', 44, ['Urologista'], 'lucas.o@email.com', '0123', '04/04/16:45');
+INSERT INTO medico VALUES (10, 'Patrícia Santos', '654321987', 'Rua Haddock Lobo, 606', 39, ['Pediatra', 'Neonatologista'], 'patricia.s@email.com', '4567', '05/04/09:30');
+INSERT INTO medico VALUES (11, 'Roberto Ferreira', '789654123', 'Alameda Campinas, 707', 48, ['Cirurgião Geral', 'Proctologista'], 'roberto.f@email.com', '8901', '06/04/10:00');
