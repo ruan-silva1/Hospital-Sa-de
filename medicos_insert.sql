@@ -20,3 +20,25 @@ INSERT INTO pacientes VALUES
 (8, 'Juliana Martins', '31944443333', 'Rua Oscar Freire, 1819', 9090, '["labirintite"]', 'juliana.martins@yahoo.com', '3405-0008'),
 (9, 'Lucas Gonçalves', '41933332222', 'Avenida Rebouças, 2021', 1010, '["gastrite"]', 'lucas.goncalves@gmail.com', '3405-0009'),
 (10, 'Patrícia Nunes', '51922221111', 'Rua Haddock Lobo, 2223', 1111, '["artrite reumatoide"]', 'patricia.nunes@hotmail.com', '3405-0010');
+
+INSERT INTO consultas VALUES
+(1, 2, '2015/03/15', 'dor nas costas', 'melhora com repouso', 25.50, 1, 'paracetamol', null, null),
+(2, 3, '2016/07/10', 'febre alta', 'não houve melhora', 30.00, 2, 'ibuprofeno', null, ['2016/07/12']),
+(3, 4, '2017/01/05', 'dificuldade respiratória', 'em tratamento, melhora parcial', 50.00, 3, 'amoxicilina', 'salbutamol', null),
+(4, 5, '2018/06/22', 'dor abdominal', 'melhora gradual', 40.00, 4, 'omeprazol', null, null),
+(5, 6, '2019/11/10', 'enxaqueca', 'não houve alteração', 35.00, 5, 'dipirona', 'betaxolol', null),
+(6, 7, '2020/02/20', 'dor muscular', 'melhora com exercícios', 20.00, 6, 'meloxicam', null, ['2020/02/22']),
+(7, 8, '2019/03/14', 'gripe', 'melhora progressiva', 15.00, 7, 'paracetamol', 'loratadina', null),
+(8, 9, '2021/09/30', 'infecção urinária', 'melhora com antibióticos', 28.00, 8, 'cotrimoxazol', null, ['2021/10/02']),
+(9, 10, '2021/04/03', 'dor de cabeça', 'melhorou, mas não passou', 19.99, 9, 'dipirona', null, ['2022/03/04']),
+(10, 2, '2015/08/19', 'vômito', 'não há alteração', 40.00, 1, 'metoclopramida', null, null),
+(11, 3, '2016/12/15', 'corte no braço', 'em processo de cicatrização', 50.00, 2, 'cloranfenicol', 'lidocaína', null),
+(12, 4, '2017/10/30', 'conjuntivite', 'em uso de colírios', 35.00, 3, 'neomicina', null, null),
+(13, 5, '2018/05/25', 'pressão alta', 'controle com medicação', 60.00, 4, 'captopril', 'hidroclorotiazida', null),
+(14, 6, '2019/07/18', 'garganta inflamada', 'melhora com antibióticos', 18.00, 5, 'amoxicilina', 'clavulanato', null),
+(15, 7, '2020/01/07', 'tontura', 'não foi possível identificar a causa', 22.50, 6, 'flunarizina', null, null),
+(16, 8, '2021/05/15', 'cólica menstrual', 'em uso de anti-inflamatórios', 26.00, 7, 'ibuprofeno', null, ['2021/05/17']),
+(17, 9, '2020/08/04', 'dificuldade para dormir', 'sem grandes resultados', 45.00, 8, 'melatonina', null, null),
+(18, 10, '2019/10/22', 'problema digestivo', 'sem alterações significativas', 50.00, 9, 'omeprazol', 'pantoprazol', null),
+(19, 2, '2021/06/25', 'diarreia', 'melhora com reidratação', 25.00, 10, 'loperamida', null, null),
+(20, 3, '2020/11/11', 'sinusite', 'em tratamento, melhora lenta', 32.00, 1, 'sinutab', 'betametasona', null);
